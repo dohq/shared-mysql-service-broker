@@ -1,22 +1,22 @@
 ---
 services:
-- id: 445d9bca-ba54-11e7-8f28-89aab798d359
-  name: shared-mysql
-  description: Shared MySQL
+- id: d9d148b0-e82d-4833-9cb5-2e6dac97c09a
+  name: shared-aurora
+  description: Shared MySQL(Aurora)
   bindable: true
   planUpdateable: false
   requires: []
   tags:
   - mysql
   metadata:
-    displayName: Shared MySQL
+    displayName: Shared MySQL(Aurora)
     documentationUrl: https://twitter.com/making
     imageUrl: https://avatars2.githubusercontent.com/u/2452804?s=200&v=4
-    longDescription: Shared MySQL
+    longDescription: Shared MySQL(Aurora)
     providerDisplayName: "@making"
     supportUrl: https://twitter.com/making
   plans:
-  - id: 517cf274-ba54-11e7-8f28-89aab798d359
+  - id: 31c4dd38-a36c-44ce-8fef-36524b1be257
     name: shared
     description: Shared
     free: true
